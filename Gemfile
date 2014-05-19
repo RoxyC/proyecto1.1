@@ -27,6 +27,21 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'thin'
+gem 'activerecord-tableless'
+gem 'compass-rails','1.1.2'
+gem 'figaro'
+gem 'gibbon'
+gem 'google_drive'
+gem 'high_voltage'
+gem 'simple_form'
+gem 'zurb-foundation','~> 4.3.2'
+
+group :development do 
+
+	gem 'better_errors'
+	gem 'quiet_assets'
+	gem 'rails_layout'
+end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
